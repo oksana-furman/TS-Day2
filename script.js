@@ -115,7 +115,7 @@ class Motorbikes extends Vihecles {
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="${Math.floor(this.calculatePrice())}" data-bs-content="${Math.floor(this.calculatePrice())}">See the price</button>
+        <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="Price" data-bs-content="${Math.floor(this.calculatePrice())}">See the price</button>
       </div>
     </div>
   </div>
